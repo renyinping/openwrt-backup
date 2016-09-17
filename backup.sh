@@ -7,7 +7,7 @@ BAK_FILE="${BAK_FILE}-15.05.1-ar71xx-nand-wndr3700v4";
 BAK_FILE="${BAK_FILE}-`date +%F`";
 BAK_FILE="${BAK_FILE}.tar.gz";
 EXCLUDE="--exclude=${DL_DIR} --exclude=root";
-BAK_LIST="bin etc lib sbin usr www";
+BAK_LIST="bin etc lib mnt sbin usr www";
 
 cd /overlay/upper;
 mkdir -p /${DL_DIR};
